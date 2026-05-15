@@ -1,6 +1,4 @@
 <svg width="260" height="60" viewBox="0 0 260 60" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background (optional, usually transparent) -->
-  <!-- <rect width="260" height="60" fill="white" /> -->
 
   <!-- Icon: stylized sail / wave -->
   <path d="M20 45 C 28 20, 40 10, 60 8 L 60 45 Z"
@@ -8,11 +6,12 @@
   <path d="M20 45 C 32 38, 46 36, 60 38 L 60 45 Z"
         fill="#E8F0FA" />
 
-  <!-- Text: SAILS -->
+  <!-- Text: SAILS (italic) -->
   <text x="80" y="38"
         font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
         font-size="26"
         font-weight="600"
+        font-style="italic"
         fill="#1A4C8B">
     SAILS
   </text>
@@ -24,4 +23,5 @@
         fill="#555">
     Society for AI in Life Sciences
   </text>
+
 </svg>
