@@ -1,29 +1,35 @@
-/* 全体のフォントと余白 */
+/* ================================
+   SAILS Global Style
+   ================================ */
+
+/* Base */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.7;
   margin: 0;
   padding: 0;
+  background: #ffffff;
+  color: #222;
 }
 
-/* コンテンツ幅 */
+/* Layout */
 main {
   max-width: 900px;
   margin: auto;
   padding: 20px;
 }
 
-/* ナビゲーション */
+/* Navigation */
 nav {
-  padding: 12px 0;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 20px;
+  background: #1A4C8B;
+  padding: 12px 20px;
+  margin-bottom: 30px;
 }
 
 nav a {
   margin-right: 20px;
   text-decoration: none;
-  color: #0366d6;
+  color: #ffffff;
   font-weight: 500;
 }
 
@@ -31,15 +37,61 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* セクションタイトル */
+/* Headings */
 h1, h2, h3 {
   font-weight: 600;
+  color: #1A4C8B;
 }
 
-/* フッター */
+h1 {
+  margin-top: 0;
+}
+
+/* Links */
+a {
+  color: #0366D6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rule */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 30px 0;
+}
+
+/* Footer */
 footer {
   text-align: center;
   margin-top: 40px;
+  padding: 20px 0;
   font-size: 0.9em;
   color: #777;
+  border-top: 1px solid #ddd;
+}
+
+/* Highlight box */
+.highlight-box {
+  background: #E8F0FA;
+  border-left: 4px solid #1A4C8B;
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+
+/* Buttons (optional) */
+.button {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #1A4C8B;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button:hover {
+  background: #0D2A4A;
 }
