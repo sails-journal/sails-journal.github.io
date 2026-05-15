@@ -55,7 +55,16 @@ SAILS では、論文1本＝1冊の電子書籍として出版する
 {{ paper.abstract | truncate: 300 }}
 
 📄 **電子書籍：**  
-- <a href="{{ paper.ebook_url }}">PDF / EPUB / 販売ページ</a>
+{% if paper.pdf %}
+- <a href="{{ paper.pdf }}">PDF</a>
+{% endif %}
+{% if paper.epub %}
+- <a href="{{ paper.epub }}">EPUB</a>
+{% endif %}
+{% if paper.ebook_url %}
+- <a href="{{ paper.ebook_url }}">販売ページ</a>
+{% endif %}
+
 
 </div>
 
