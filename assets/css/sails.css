@@ -24,6 +24,7 @@ nav a {
   margin-right: 20px;
   text-decoration: none;
   color: #0366d6;
+  font-weight: 500;
 }
 
 nav a:hover {
