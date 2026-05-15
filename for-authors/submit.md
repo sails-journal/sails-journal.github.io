@@ -47,7 +47,7 @@ AI × 生命科学分野の研究成果を迅速に公開するため、
 ### 📎 ファイルアップロード（Upload Files）
 
 <label>Word（必須）</label><br>
-<input type="file" name="word" accept="application/pdf" required><br><br>
+<input type="file" name="word" accept=".doc,.docx,application/msword" required><br><br>
 
 <label>PDF（必須）</label><br>
 <input type="file" name="pdf" accept="application/pdf" required><br><br>
