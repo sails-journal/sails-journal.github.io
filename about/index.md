@@ -116,7 +116,7 @@ SAILS が提供する価値は以下の通りです：
 
 ご質問・お問い合わせはこちら
 
-▶ **contact@xxxxxxxxxxxxxxx**
+▶ **sails.journal.org@gmail.com**
 
 ---
 
