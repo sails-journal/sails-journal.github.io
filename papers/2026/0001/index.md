@@ -7,7 +7,9 @@ doi: "10.5281/zenodo.xxxxxxx"
 published: "2026-01-15"
 paper_id: "2026/0001"
 pdf: "./paper.pdf"
-ebook_url: "./paper.pdf"   # EPUB や販売ページがあれば差し替え
+epub: "./paper.epub"        # EPUB を作る場合
+ebook_url: "https://example.com/store/0001"   # 販売ページ
+supplementary: "./supplementary.zip"          # 追加資料
 keywords:
   - "keyword1"
   - "keyword2"
