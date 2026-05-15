@@ -38,7 +38,7 @@ keywords:
 
 ## Citation
 以下の形式で引用できます：
-\\\著者名（年）. 論文タイトル. SAILS. https://doi.org/xxxxx\\\
+'''著者名（年）. 論文タイトル. SAILS. https://doi.org/xxxxx'''
 
 ---
 
