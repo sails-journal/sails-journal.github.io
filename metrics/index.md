@@ -6,7 +6,7 @@ layout: default
 # Metrics  
 ### *“読まれた価値”を可視化する新しい学術評価モデル*
 
-SAILS（Society for AI in Life Sciences）は、従来の学術出版で一般的な  
+Society for AI in Life Sciences（SAILS）は、従来の学術出版で一般的な  
 **インパクトファクター（IF）による評価** に加えて、  
 研究が “実際にどれだけ読まれ、影響を与えたか” を重視する  
 **新しい評価指標（Metrics）** も採用しています。
