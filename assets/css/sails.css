@@ -103,3 +103,23 @@ footer {
   border-radius: 6px;
   background: #fafafa;
 }
+
+.architecture-box {
+  background: #E8F0FA;
+  border-left: 4px solid #1A4C8B;
+  padding: 20px 25px;
+  margin: 30px 0;
+  border-radius: 6px;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+.architecture-box code {
+  background: #fff;
+  padding: 10px;
+  display: block;
+  white-space: pre;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 15px;
+}
