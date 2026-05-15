@@ -118,7 +118,7 @@ SAILS は、従来の「号単位の学会誌」ではなく、
 
 ご質問・お問い合わせはこちら
 
-▶ **contact@xxxxxxxxxxxxxx**
+▶ **sails.journal.org@gmail.com**
 
 ---
 
