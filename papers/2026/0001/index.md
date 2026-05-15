@@ -33,11 +33,23 @@ layout: default
 **DOI：**  
 <a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a>
 
-**PDF：**  
+## PDF
 - <a href="{{ page.pdf }}">Download PDF</a>
 
-**電子書籍（eBook）：**  
-- <a href="{{ page.ebook_url }}">PDF / EPUB / 販売ページ</a>
+## eBook
+{% if page.epub %}
+- <a href="{{ page.epub }}">Download EPUB</a>
+{% endif %}
+
+{% if page.ebook_url %}
+- <a href="{{ page.ebook_url }}">販売ページ（Store）</a>
+{% endif %}
+
+{% if page.supplementary %}
+## Supplementary Materials
+- <a href="{{ page.supplementary }}">Download Supplementary Files</a>
+{% endif %}
+
 
 ---
 
