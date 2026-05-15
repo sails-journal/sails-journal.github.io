@@ -95,3 +95,11 @@ footer {
 .button:hover {
   background: #0D2A4A;
 }
+
+.paper-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 6px;
+  background: #fafafa;
+}
