@@ -30,6 +30,39 @@ SAILS は、研究成果が正当に評価され、
 
 ---
 
+## Latest Papers
+
+{% comment %}
+papers/ 以下の index.md を持つ論文ページを抽出し、
+published でソートして最新3件を取得
+{% endcomment %}
+
+{% assign papers = site.pages 
+  | where_exp: "p", "p.path contains 'papers/'" 
+  | where_exp: "p", "p.path != 'papers/index.md'" 
+  | where_exp: "p", "p.path contains '/index.md'" 
+%}
+
+{% assign sorted = papers | sort: "published" | reverse %}
+{% assign latest = sorted | slice: 0, 3 %}
+
+{% for paper in latest %}
+<div class="paper-card">
+
+### <a href="{{ paper.url | relative_url }}">{{ paper.title }}</a>
+
+**著者：** {{ paper.authors | join: ", " }}  
+**出版日：** {{ paper.published }}  
+**DOI：** <a href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a>
+
+**要旨（抜粋）：**  
+{{ paper.abstract | truncate: 150 }}
+
+</div>
+{% endfor %}
+
+---
+
 ## Scope
 
 SAILS はまず **薬学 × AI** を中心領域とします。
